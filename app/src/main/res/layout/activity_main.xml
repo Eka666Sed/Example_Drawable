@@ -5,39 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/image"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:src="@drawable/oval" />
-
-    <ImageView
-        android:id="@+id/line"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="200dp"
-        android:layout_marginStart="20dp"
-        android:layout_below="@id/image"
-        android:src="@drawable/line" />
-
-    <ImageView
-        android:id="@+id/ring"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginStart="20dp"
-        android:layout_below="@id/line"
-        android:src="@drawable/ring" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:background="@drawable/rounded_rectangle"
         android:layout_gravity="center"
-        android:hint="Введите текст"
-        android:padding="8dp" />
+        android:gravity="center"
+        android:text="Ученье - свет, \nа неученье - тьма!"
+        android:textColor="@color/black"
+        android:background="@drawable/layerlist"
+        />
 
 </FrameLayout>
