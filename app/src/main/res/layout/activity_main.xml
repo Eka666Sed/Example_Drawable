@@ -12,6 +12,24 @@
         android:layout_gravity="top"
         android:src="@drawable/oval" />
 
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/image"
+        android:src="@drawable/line" />
+
+    <ImageView
+        android:id="@+id/ring"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/line"
+        android:src="@drawable/ring" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
