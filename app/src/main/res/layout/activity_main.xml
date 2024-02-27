@@ -5,14 +5,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@drawable/tap_selector"
+        android:padding="16dp"
+        android:text="Это кнопка" />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/tap_selector"
+        android:clickable="true"
         android:gravity="center"
-        android:text="Ученье - свет, \nа неученье - тьма!"
-        android:textColor="@color/black"
-        android:background="@drawable/layerlist"
-        />
+        android:text="Это не кнопка!" />
 
 </FrameLayout>
